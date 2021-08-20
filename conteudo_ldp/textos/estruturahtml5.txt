@@ -1,0 +1,62 @@
+!DOCTYPE: define qual tipo de arquivo você está escrevendo
+
+<head> ficam os metadados, que normalmente são globais, não aparecem na página
+    <meta charset="utf-8"> É OBRIGATÓRIO!!
+    charset:
+    description guarda a descrição do site, utilizando nos motores de busca
+    keywords: palavras chaves relacionadas ao site
+    robots: ajudar os robos do google a indexarem a página
+<title> deixa o nomezinho da pagina na aba
+
+<body> tudo que estiver aqui dentro vai ser printado na tela
+    <header>: cabeçalho
+    <nav>: menu de navegação
+    <main>: parte principal, o corpo da página
+    <footer>: rodapé
+
+form: formulário, precisa estar todo bonitinho daquele jeito, só mudar a frase
+    <label> rótulo do campo
+    <input type=> pode ser text, caracter, pass, date...
+        name: é importante ele ter um nome, porque assim o programa localiza mais facilmente, como se fosse uma variavel
+        required: faz uma validação do campo
+            submit: botão para clicar
+            value: texto dentro do botão
+
+
+------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+       <meta charset="utf-8">
+       <meta name="description" content="Página de exemplo HTML com PHP">
+       <meta name="keywords" content="html,php">
+       <meta name="robots" content="index2.php">
+       <title>HTML - PHP</title> 
+    </head>
+    <body>
+        <header>
+            <h1>HTML - PHP</h1>
+        </header>
+
+        <nav>
+            <a href="index.php" title="Home">Home</a>
+        </nav>
+
+        <main>
+            <h2>Lógica da Programação</h2>
+            <br><br>
+
+            <form action="index2.php" method="POST">
+                <label>Digite uma frase</label>
+                <input type="text" name="frase" required/>
+                <input type="submit" value="Mostrar"/>
+        </main>
+
+
+        <footer>
+            <p>Professor Emerson</p>
+        </footer> 
+    </body>
+
+</html>

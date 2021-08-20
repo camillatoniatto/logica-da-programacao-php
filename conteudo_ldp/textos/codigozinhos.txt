@@ -1,0 +1,77 @@
+✨Codigozinhos em PHP✨
+//INICIO E FIM DO CODIGO
+    <?php
+    ?>
+
+//VARIAVEIS
+    $variavel1 = "primeira";
+    $variavel2 = "segunda";
+
+//COMANDO ESCREVA/PRINT
+    echo "mostrar na tela";
+        echo "$variavel1";
+        echo 'alguma coisa escrita'.$variavel1;   
+
+//TROCAR VARIÁVEIS
+    $b = $a;
+    echo $b;
+
+//INSTRUÇÃO IF..ELSEIF..ELSE
+    if($a>$b){
+        echo "A é maior que B";
+    }
+    elseif($a==$b){
+        echo "A é igual a B";
+    }
+    else{
+        echo "B é maior que A";
+
+//isset: informa de a variável foi iniciada
+
+
+
+
+✨Basicamente tudo html daqui pra baixo... se divirta (❁´◡`❁)✨
+
+<!--assim é um comentário no código de html-->
+
+//ESTRUTURA BÁSICA (ver arquivo estruturahtml5)
+    <html>
+        <head>
+        </head>
+        <body>
+        </body>
+    </html>
+
+//PARAGRAFOS E ESCRITINHAS
+    <hr/> --> faz uma linha bonitinha
+    <br> --> pula linha
+    <p></p> --> faz paragrafo show
+    
+    <b></b> --> negrito
+    <i></i> --> italico
+    <u></u> --> sublinhado
+    <s></s> --> riscado
+    <center></center> --> centraliza
+    <marque></marque> --> texto fica passeando
+    
+    <title></title> --> faz um titulo
+    <h1></h1> --> faz um header, pode ir de 1 a 6 (quanto menor o nº, maior o header)
+
+    <div align=center></div> --> alinha texto no centro 
+    <font face=FONTE size=TAMANHO color=COR></font> --> frufruzinhos pro texto
+
+
+//LISTAS
+    <ul></ul> --> separa em uma lista de bolinhas
+    <ol></ol> --> separa lista de numeros
+        <li></li> --> topicos da lista
+
+    <dl></d1> --> inicia lista de definição
+        <dt> termo
+            <dd> definição
+
+//IMAGENS E LINKS
+    <body background=LINK DA IMAGEM> --> deixa uma imagem de background
+
+    <a href=LINK>TEXTO</a> --> link no texto
