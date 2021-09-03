@@ -1,0 +1,7 @@
+Lista de Exercícios – PHP
+1 – Utilizando o comando for, escreva um algoritmo que imprima na tela 9 vezes o seu nome.
+2 – Utilizando o comando for, escreva um algoritmo que imprima na tela todos os números pares até o 80.
+3 – Escreva um algoritmo em PHP que receba dois números (início e fim). Se o número do início for menor que o fim, escreva os números do menor para o maior; caso contrário, do maior para o menor.
+4 - Escreva um programa que receba o preço de dois produtos. Calcule um desconto de 8% no primeiro produto, 11% no segundo e apresente o valor final a ser pago.
+5 - Elabore um programa em PHP que permita mostrar os números entre o intervalo do número
+digitado pelo usuário até o cubo do mesmo.
